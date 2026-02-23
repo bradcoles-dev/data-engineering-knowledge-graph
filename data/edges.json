@@ -1,0 +1,308 @@
+[
+  {
+    "source": "apache_kafka",
+    "target": "stream_processing",
+    "relationship": "enables",
+    "description": "Kafka enables real-time stream processing architectures"
+  },
+  {
+    "source": "apache_spark",
+    "target": "batch_processing",
+    "relationship": "implements",
+    "description": "Spark is commonly used for batch processing workloads"
+  },
+  {
+    "source": "apache_spark",
+    "target": "stream_processing",
+    "relationship": "supports",
+    "description": "Spark Streaming enables near real-time processing"
+  },
+  {
+    "source": "apache_airflow",
+    "target": "etl",
+    "relationship": "orchestrates",
+    "description": "Airflow orchestrates ETL workflows and data pipelines"
+  },
+  {
+    "source": "etl",
+    "target": "data_warehouse",
+    "relationship": "populates",
+    "description": "ETL processes typically load data into warehouses"
+  },
+  {
+    "source": "stream_processing",
+    "target": "data_lake",
+    "relationship": "feeds_into",
+    "description": "Stream processing often writes results to data lakes"
+  },
+  {
+    "source": "batch_processing",
+    "target": "data_lake",
+    "relationship": "reads_from",
+    "description": "Batch jobs commonly process data stored in lakes"
+  },
+  {
+    "source": "dbt",
+    "target": "data_warehouse",
+    "relationship": "transforms_in",
+    "description": "dbt transforms data within data warehouses using SQL"
+  },
+  {
+    "source": "lambda_architecture",
+    "target": "batch_processing",
+    "relationship": "combines",
+    "description": "Lambda architecture includes a batch processing layer"
+  },
+  {
+    "source": "lambda_architecture",
+    "target": "stream_processing",
+    "relationship": "combines",
+    "description": "Lambda architecture includes a stream processing layer"
+  },
+  {
+    "source": "data_lake",
+    "target": "data_warehouse",
+    "relationship": "complements",
+    "description": "Data lakes and warehouses often work together in modern architectures"
+  },
+  {
+    "source": "apache_kafka",
+    "target": "apache_spark",
+    "relationship": "integrates_with",
+    "description": "Kafka commonly streams data to Spark for processing"
+  },
+  {
+    "source": "snowflake",
+    "target": "data_warehouse",
+    "relationship": "implements",
+    "description": "Snowflake is a modern cloud data warehouse implementation"
+  },
+  {
+    "source": "amazon_s3",
+    "target": "data_lake",
+    "relationship": "implements",
+    "description": "S3 is commonly used as storage foundation for data lakes"
+  },
+  {
+    "source": "apache_hadoop",
+    "target": "batch_processing",
+    "relationship": "enables",
+    "description": "Hadoop provides distributed batch processing capabilities"
+  },
+  {
+    "source": "apache_hadoop",
+    "target": "data_lake",
+    "relationship": "stores_in",
+    "description": "HDFS is often used for data lake storage"
+  },
+  {
+    "source": "elasticsearch",
+    "target": "data_lake",
+    "relationship": "indexes",
+    "description": "Elasticsearch can index and search data lake contents"
+  },
+  {
+    "source": "redis",
+    "target": "stream_processing",
+    "relationship": "supports",
+    "description": "Redis provides fast caching for stream processing applications"
+  },
+  {
+    "source": "postgresql",
+    "target": "data_warehouse",
+    "relationship": "can_be_used_as",
+    "description": "PostgreSQL can serve as a data warehouse for smaller datasets"
+  },
+  {
+    "source": "mongodb",
+    "target": "data_lake",
+    "relationship": "stores_in",
+    "description": "MongoDB can store semi-structured data in data lake architectures"
+  },
+  {
+    "source": "apache_flink",
+    "target": "stream_processing",
+    "relationship": "implements",
+    "description": "Flink is a dedicated stream processing framework"
+  },
+  {
+    "source": "apache_flink",
+    "target": "apache_kafka",
+    "relationship": "consumes_from",
+    "description": "Flink commonly processes data streams from Kafka"
+  },
+  {
+    "source": "kubernetes",
+    "target": "apache_spark",
+    "relationship": "orchestrates",
+    "description": "Kubernetes can orchestrate Spark cluster deployments"
+  },
+  {
+    "source": "kubernetes",
+    "target": "apache_kafka",
+    "relationship": "orchestrates",
+    "description": "Kubernetes manages Kafka cluster deployments"
+  },
+  {
+    "source": "docker",
+    "target": "kubernetes",
+    "relationship": "containerizes_for",
+    "description": "Docker provides containers that Kubernetes orchestrates"
+  },
+  {
+    "source": "data_quality",
+    "target": "etl",
+    "relationship": "validates_in",
+    "description": "Data quality checks are essential in ETL processes"
+  },
+  {
+    "source": "data_lineage",
+    "target": "data_quality",
+    "relationship": "supports",
+    "description": "Data lineage helps track quality issues to their source"
+  },
+  {
+    "source": "cdc",
+    "target": "stream_processing",
+    "relationship": "enables",
+    "description": "CDC enables real-time data synchronization and streaming"
+  },
+  {
+    "source": "kappa_architecture",
+    "target": "stream_processing",
+    "relationship": "based_on",
+    "description": "Kappa architecture is entirely based on stream processing"
+  },
+  {
+    "source": "kappa_architecture",
+    "target": "lambda_architecture",
+    "relationship": "simplifies",
+    "description": "Kappa is a simpler alternative to Lambda architecture"
+  },
+  {
+    "source": "medallion_architecture",
+    "target": "data_lakehouse",
+    "relationship": "implements_in",
+    "description": "Medallion pattern is commonly used in lakehouse implementations"
+  },
+  {
+    "source": "apache_iceberg",
+    "target": "data_lake",
+    "relationship": "enhances",
+    "description": "Iceberg brings table format capabilities to data lakes"
+  },
+  {
+    "source": "delta_lake",
+    "target": "data_lake",
+    "relationship": "enhances",
+    "description": "Delta Lake adds ACID transactions to data lakes"
+  },
+  {
+    "source": "apache_hudi",
+    "target": "data_lake",
+    "relationship": "enhances",
+    "description": "Hudi enables incremental processing in data lakes"
+  },
+  {
+    "source": "great_expectations",
+    "target": "data_quality",
+    "relationship": "implements",
+    "description": "Great Expectations is a framework for data quality validation"
+  },
+  {
+    "source": "dagster",
+    "target": "apache_airflow",
+    "relationship": "alternative_to",
+    "description": "Dagster is a modern alternative to Airflow for orchestration"
+  },
+  {
+    "source": "prefect",
+    "target": "apache_airflow",
+    "relationship": "alternative_to",
+    "description": "Prefect is another modern alternative to Airflow"
+  },
+  {
+    "source": "fivetran",
+    "target": "etl",
+    "relationship": "automates",
+    "description": "Fivetran automates ELT processes for cloud warehouses"
+  },
+  {
+    "source": "stitch",
+    "target": "fivetran",
+    "relationship": "similar_to",
+    "description": "Stitch and Fivetran are competing ELT platforms"
+  },
+  {
+    "source": "looker",
+    "target": "data_warehouse",
+    "relationship": "visualizes_from",
+    "description": "Looker connects to warehouses for business intelligence"
+  },
+  {
+    "source": "tableau",
+    "target": "looker",
+    "relationship": "competes_with",
+    "description": "Tableau and Looker are competing BI platforms"
+  },
+  {
+    "source": "data_mesh",
+    "target": "data_lake",
+    "relationship": "decentralizes",
+    "description": "Data mesh promotes decentralized data lake architectures"
+  },
+  {
+    "source": "data_fabric",
+    "target": "data_mesh",
+    "relationship": "alternative_to",
+    "description": "Data fabric is an alternative approach to data mesh"
+  },
+  {
+    "source": "data_lakehouse",
+    "target": "data_lake",
+    "relationship": "combines_with",
+    "description": "Lakehouse combines data lake storage with warehouse capabilities"
+  },
+  {
+    "source": "data_lakehouse",
+    "target": "data_warehouse",
+    "relationship": "combines_with",
+    "description": "Lakehouse combines warehouse performance with lake flexibility"
+  },
+  {
+    "source": "delta_lake",
+    "target": "apache_spark",
+    "relationship": "integrates_with",
+    "description": "Delta Lake is tightly integrated with Apache Spark"
+  },
+  {
+    "source": "dbt",
+    "target": "snowflake",
+    "relationship": "transforms_in",
+    "description": "dbt commonly transforms data within Snowflake warehouses"
+  },
+  {
+    "source": "apache_kafka",
+    "target": "cdc",
+    "relationship": "enables",
+    "description": "Kafka is commonly used to stream CDC events"
+  },
+  {
+    "source": "apache_spark",
+    "target": "delta_lake",
+    "relationship": "writes_to",
+    "description": "Spark processes and writes data to Delta Lake tables"
+  },
+  {
+    "source": "kubernetes",
+    "target": "apache_flink",
+    "relationship": "orchestrates",
+    "description": "Kubernetes can manage Flink cluster deployments"
+  },
+  {
+    "source": "great_expectations",
+    "target": "dbt",
+    "relationship": "validates_with",
+    "description": "Great Expectations can validate dbt model outputs"
+  }
+]

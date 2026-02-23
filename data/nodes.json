@@ -1,0 +1,306 @@
+[
+  {
+    "id": "apache_kafka",
+    "name": "Apache Kafka",
+    "type": "tool",
+    "category": "streaming",
+    "description": "Distributed event streaming platform for high-throughput data pipelines",
+    "tags": ["real-time", "messaging", "streaming", "distributed"]
+  },
+  {
+    "id": "apache_spark",
+    "name": "Apache Spark",
+    "type": "tool",
+    "category": "processing",
+    "description": "Unified analytics engine for large-scale data processing",
+    "tags": ["big-data", "processing", "distributed", "in-memory"]
+  },
+  {
+    "id": "apache_airflow",
+    "name": "Apache Airflow",
+    "type": "tool",
+    "category": "orchestration",
+    "description": "Platform to programmatically author, schedule and monitor workflows",
+    "tags": ["workflow", "orchestration", "scheduling", "DAG"]
+  },
+  {
+    "id": "etl",
+    "name": "ETL (Extract, Transform, Load)",
+    "type": "concept",
+    "category": "process",
+    "description": "Process of extracting data from sources, transforming it, and loading into destination",
+    "tags": ["data-integration", "transformation", "pipeline"]
+  },
+  {
+    "id": "data_lake",
+    "name": "Data Lake",
+    "type": "concept",
+    "category": "architecture",
+    "description": "Storage repository that holds raw data in its native format",
+    "tags": ["storage", "raw-data", "schema-on-read"]
+  },
+  {
+    "id": "data_warehouse",
+    "name": "Data Warehouse",
+    "type": "concept",
+    "category": "architecture",
+    "description": "Central repository of integrated data from multiple sources",
+    "tags": ["storage", "structured-data", "schema-on-write", "OLAP"]
+  },
+  {
+    "id": "stream_processing",
+    "name": "Stream Processing",
+    "type": "concept",
+    "category": "process",
+    "description": "Processing data continuously as it arrives in real-time",
+    "tags": ["real-time", "continuous", "low-latency"]
+  },
+  {
+    "id": "batch_processing",
+    "name": "Batch Processing",
+    "type": "concept",
+    "category": "process",
+    "description": "Processing large volumes of data in discrete chunks at scheduled intervals",
+    "tags": ["scheduled", "high-throughput", "latency-tolerant"]
+  },
+  {
+    "id": "dbt",
+    "name": "dbt (data build tool)",
+    "type": "tool",
+    "category": "transformation",
+    "description": "Command line tool for transforming data in warehouses using SQL",
+    "tags": ["SQL", "transformation", "modeling", "testing"]
+  },
+  {
+    "id": "lambda_architecture",
+    "name": "Lambda Architecture",
+    "type": "concept",
+    "category": "architecture",
+    "description": "Data processing architecture combining batch and stream processing",
+    "tags": ["hybrid", "batch", "stream", "fault-tolerant"]
+  },
+  {
+    "id": "snowflake",
+    "name": "Snowflake",
+    "type": "tool",
+    "category": "warehouse",
+    "description": "Cloud-native data warehouse with automatic scaling and optimization",
+    "tags": ["cloud", "warehouse", "SQL", "scaling"]
+  },
+  {
+    "id": "amazon_s3",
+    "name": "Amazon S3",
+    "type": "tool",
+    "category": "storage",
+    "description": "Object storage service offering scalability, data availability, and performance",
+    "tags": ["cloud", "storage", "object", "AWS"]
+  },
+  {
+    "id": "apache_hadoop",
+    "name": "Apache Hadoop",
+    "type": "tool",
+    "category": "processing",
+    "description": "Framework for distributed storage and processing of large data sets",
+    "tags": ["big-data", "distributed", "HDFS", "MapReduce"]
+  },
+  {
+    "id": "elasticsearch",
+    "name": "Elasticsearch",
+    "type": "tool",
+    "category": "search",
+    "description": "Distributed search and analytics engine built on Apache Lucene",
+    "tags": ["search", "analytics", "real-time", "NoSQL"]
+  },
+  {
+    "id": "redis",
+    "name": "Redis",
+    "type": "tool",
+    "category": "caching",
+    "description": "In-memory data structure store used as cache, message broker, and database",
+    "tags": ["cache", "in-memory", "key-value", "real-time"]
+  },
+  {
+    "id": "postgresql",
+    "name": "PostgreSQL",
+    "type": "tool",
+    "category": "database",
+    "description": "Advanced open-source relational database with SQL compliance",
+    "tags": ["SQL", "relational", "ACID", "extensible"]
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB",
+    "type": "tool",
+    "category": "database",
+    "description": "Document-oriented NoSQL database with flexible schema",
+    "tags": ["NoSQL", "document", "JSON", "flexible"]
+  },
+  {
+    "id": "apache_flink",
+    "name": "Apache Flink",
+    "type": "tool",
+    "category": "streaming",
+    "description": "Stream processing framework for distributed, high-performing applications",
+    "tags": ["stream-processing", "real-time", "low-latency", "distributed"]
+  },
+  {
+    "id": "kubernetes",
+    "name": "Kubernetes",
+    "type": "tool",
+    "category": "orchestration",
+    "description": "Container orchestration platform for automating deployment and scaling",
+    "tags": ["containers", "orchestration", "cloud-native", "scaling"]
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "type": "tool",
+    "category": "containerization",
+    "description": "Platform for developing, shipping, and running applications in containers",
+    "tags": ["containers", "virtualization", "deployment", "portable"]
+  },
+  {
+    "id": "data_quality",
+    "name": "Data Quality",
+    "type": "concept",
+    "category": "governance",
+    "description": "Ensuring data accuracy, completeness, consistency, and reliability",
+    "tags": ["quality", "validation", "monitoring", "governance"]
+  },
+  {
+    "id": "data_lineage",
+    "name": "Data Lineage",
+    "type": "concept",
+    "category": "governance",
+    "description": "Tracking data flow from source to destination through transformations",
+    "tags": ["lineage", "tracking", "governance", "audit"]
+  },
+  {
+    "id": "cdc",
+    "name": "Change Data Capture (CDC)",
+    "type": "concept",
+    "category": "integration",
+    "description": "Process of capturing and tracking changes made to data in databases",
+    "tags": ["change-tracking", "real-time", "synchronization", "integration"]
+  },
+  {
+    "id": "kappa_architecture",
+    "name": "Kappa Architecture",
+    "type": "concept",
+    "category": "architecture",
+    "description": "Stream processing architecture that processes all data as streams",
+    "tags": ["stream-only", "real-time", "simplicity", "unified"]
+  },
+  {
+    "id": "medallion_architecture",
+    "name": "Medallion Architecture",
+    "type": "concept",
+    "category": "architecture",
+    "description": "Data lakehouse pattern with bronze, silver, and gold data layers",
+    "tags": ["lakehouse", "layered", "bronze-silver-gold", "quality"]
+  },
+  {
+    "id": "apache_iceberg",
+    "name": "Apache Iceberg",
+    "type": "tool",
+    "category": "storage",
+    "description": "Open table format for huge analytic datasets in data lakes",
+    "tags": ["table-format", "versioning", "ACID", "analytics"]
+  },
+  {
+    "id": "delta_lake",
+    "name": "Delta Lake",
+    "type": "tool",
+    "category": "storage",
+    "description": "Open-source storage layer that brings reliability to data lakes",
+    "tags": ["ACID", "versioning", "data-lake", "reliability"]
+  },
+  {
+    "id": "apache_hudi",
+    "name": "Apache Hudi",
+    "type": "tool",
+    "category": "storage",
+    "description": "Transactional data lake platform with incremental data processing",
+    "tags": ["incremental", "upserts", "data-lake", "streaming"]
+  },
+  {
+    "id": "great_expectations",
+    "name": "Great Expectations",
+    "type": "tool",
+    "category": "quality",
+    "description": "Python-based framework for data validation and documentation",
+    "tags": ["data-quality", "testing", "validation", "documentation"]
+  },
+  {
+    "id": "dagster",
+    "name": "Dagster",
+    "type": "tool",
+    "category": "orchestration",
+    "description": "Data orchestrator for machine learning, analytics, and ETL",
+    "tags": ["orchestration", "ML", "data-ops", "testing"]
+  },
+  {
+    "id": "prefect",
+    "name": "Prefect",
+    "type": "tool",
+    "category": "orchestration",
+    "description": "Workflow orchestration and observability platform",
+    "tags": ["orchestration", "observability", "workflow", "modern"]
+  },
+  {
+    "id": "fivetran",
+    "name": "Fivetran",
+    "type": "tool",
+    "category": "integration",
+    "description": "Automated data integration platform for cloud warehouses",
+    "tags": ["ELT", "SaaS", "automated", "connectors"]
+  },
+  {
+    "id": "stitch",
+    "name": "Stitch",
+    "type": "tool",
+    "category": "integration",
+    "description": "Cloud-first data integration platform for rapid data replication",
+    "tags": ["ELT", "replication", "cloud", "simple"]
+  },
+  {
+    "id": "looker",
+    "name": "Looker",
+    "type": "tool",
+    "category": "analytics",
+    "description": "Modern business intelligence and data platform",
+    "tags": ["BI", "analytics", "visualization", "modeling"]
+  },
+  {
+    "id": "tableau",
+    "name": "Tableau",
+    "type": "tool",
+    "category": "analytics",
+    "description": "Visual analytics platform for business intelligence",
+    "tags": ["BI", "visualization", "self-service", "analytics"]
+  },
+  {
+    "id": "data_mesh",
+    "name": "Data Mesh",
+    "type": "concept",
+    "category": "architecture",
+    "description": "Decentralized data architecture treating data as a product",
+    "tags": ["decentralized", "domain-driven", "product", "federated"]
+  },
+  {
+    "id": "data_fabric",
+    "name": "Data Fabric",
+    "type": "concept",
+    "category": "architecture",
+    "description": "Unified data management approach across hybrid environments",
+    "tags": ["unified", "hybrid", "integration", "management"]
+  },
+  {
+    "id": "data_lakehouse",
+    "name": "Data Lakehouse",
+    "type": "concept",
+    "category": "architecture",
+    "description": "Architecture combining data lake flexibility with warehouse performance",
+    "tags": ["hybrid", "performance", "flexibility", "unified"]
+  }
+]

@@ -28,8 +28,8 @@ This project aims to create a structured representation of data engineering know
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/Data-Engineering-Knowledge-Graph.git
-cd Data-Engineering-Knowledge-Graph
+git clone https://github.com/bradcoles-dev/data-engineering-knowledge-graph.git
+cd data-engineering-knowledge-graph
 
 # Install dependencies (if applicable)
 # npm install / pip install -r requirements.txt / etc.

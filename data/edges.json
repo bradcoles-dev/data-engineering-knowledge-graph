@@ -304,5 +304,35 @@
     "target": "dbt",
     "relationship": "validates_with",
     "description": "Great Expectations can validate dbt model outputs"
+  },
+  {
+    "source": "telemetry",
+    "target": "stream_processing",
+    "relationship": "enables",
+    "description": "Telemetry data often requires real-time stream processing"
+  },
+  {
+    "source": "telemetry",
+    "target": "data_quality",
+    "relationship": "supports",
+    "description": "Telemetry helps monitor and ensure data quality"
+  },
+  {
+    "source": "apache_kafka",
+    "target": "telemetry",
+    "relationship": "transports",
+    "description": "Kafka commonly transports telemetry data streams"
+  },
+  {
+    "source": "elasticsearch",
+    "target": "telemetry",
+    "relationship": "stores",
+    "description": "Elasticsearch is often used for telemetry data storage and search"
+  },
+  {
+    "source": "telemetry",
+    "target": "data_lake",
+    "relationship": "feeds_into",
+    "description": "Telemetry data is commonly stored in data lakes for analysis"
   }
 ]

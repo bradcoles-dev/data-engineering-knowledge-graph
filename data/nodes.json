@@ -302,5 +302,13 @@
     "category": "architecture",
     "description": "Architecture combining data lake flexibility with warehouse performance",
     "tags": ["hybrid", "performance", "flexibility", "unified"]
+  },
+  {
+    "id": "telemetry",
+    "name": "Telemetry",
+    "type": "concept",
+    "category": "monitoring",
+    "description": "Automated collection and transmission of data from remote systems for monitoring and analysis",
+    "tags": ["monitoring", "observability", "metrics", "real-time", "instrumentation"]
   }
 ]
